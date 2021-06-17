@@ -387,3 +387,53 @@ body {
     }
   }
 }
+.Testimonials {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h2 {
+      @include h2;
+      padding: 10px;
+      margin-top: 100px;
+      margin-bottom: 80px;
+    }
+    .Testimonialsimg {
+      margin-bottom: 50px;
+    }
+    .Testimonialscontent{
+      font-size: 28px;
+      line-height: 40px;
+      text-align: center;
+      letter-spacing: 0.2px;
+      max-width: 967px;
+      color: $second-text;
+      margin-bottom: 60px;
+    }
+    .KisiKarti {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 80px;
+
+
+      img {
+        margin-right: 13px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 23px;
+        letter-spacing: 0.1px;
+        color: $second-text;
+      }
+    }
+    .btn{
+      font-weight: bold;
+      padding: 16px 47px;
+      margin-bottom: 100px;
+
+
+    }
+  }
+}
